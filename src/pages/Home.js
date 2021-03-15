@@ -5,11 +5,12 @@ import ProductList from "../components/ProductList";
 function Home() {
   return (
     <div className="bg-color">
-        <div className="container grid-container">
-            <Header />
-            <ProductList />
-            <Footer />
-        </div>
+      <div className="container grid-container">
+        <Header />
+        <NavigationBar />
+        <ProductList />
+        <Footer />
+      </div>
     </div>
   );
 }
